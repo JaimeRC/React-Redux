@@ -1,7 +1,7 @@
 export default ({ dispatch }) => next => action => {
 
     //Check to see if the action
-    //hasa promise on its 'payload'property
+    //has promise on its 'payload'property
     //If it does, then wait for it to resolve
     //If it doesn't, then send the action on to the
     //next middleware
