@@ -2,6 +2,9 @@
 # Created by https://www.gitignore.io/api/node,visualstudiocode
 
 ### Node ###
+
+config.js
+
 # Logs
 logs
 *.log
@@ -85,3 +88,5 @@ typings/
 
 
 # End of https://www.gitignore.io/api/node,visualstudiocode
+
+package-lock.json
